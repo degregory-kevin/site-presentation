@@ -1,62 +1,74 @@
 import React from 'react';
 import CheckBoxIcon from '@material-ui/icons/CheckBox';
+import {dataCompetences1, data4} from '../../data/Competences'
+import { dataCompetences, data3 } from '../../data/Competences2'
 
 const OtherSkills = () => {
+
+
     return (
         <div className="otherSkills">
-            <h3>Autres compétences</h3>
+            <h3>Compétences</h3>
             <div className="list">
                 <ul>
-                    <li>
+                    {
+                            dataCompetences1.map((competence) =>(
+                                
+                      <li key={competence.id}>
                         <i>
                             <CheckBoxIcon fontSize="small"/>
                         </i>
-                        <span>Github</span>
+                        <span>{competence.title}</span>
                     </li>
-                    <li>
-                        <i>
-                            <CheckBoxIcon fontSize="small"/>
-                        </i>
-                        <span>JS ES7</span>
-                    </li>
-                    <li>
-                        <i>
-                            <CheckBoxIcon fontSize="small"/>
-                        </i>
-                        <span>BDD</span>
-                    </li>
-                    <li>
-                        <i>
-                            <CheckBoxIcon fontSize="small"/>
-                        </i>
-                        <span>Methodes Agiles</span>
-                    </li>
+
+                            ))
+                    }
+                                     
                 </ul>
                 <ul>
-                    <li>
+                    {
+                            dataCompetences.map((competence) =>(
+                                
+                      <li key={competence.id}>
                         <i>
                             <CheckBoxIcon fontSize="small"/>
                         </i>
-                        <span>Axios</span>
+                        <span>{competence.title}</span>
                     </li>
-                    <li>
+
+                            ))
+                    }
+                                     
+                </ul>
+                <ul>
+                    {
+                            data3.map((competence) =>(
+                                
+                      <li key={competence.id}>
                         <i>
                             <CheckBoxIcon fontSize="small"/>
                         </i>
-                        <span>React-router</span>
+                        <span>{competence.title}</span>
                     </li>
-                    <li>
+
+                            ))
+                    }
+                                     
+                </ul>
+                <ul>
+                    {
+                            data4.map((competence) =>(
+                                
+                      <li key={competence.id}>
                         <i>
                             <CheckBoxIcon fontSize="small"/>
                         </i>
-                        <span>Github</span>
+                        <span>{competence.title}</span>
                     </li>
-                    <li>
-                        <i>
-                            <CheckBoxIcon fontSize="small"/>
-                        </i>
-                        <span>Github</span>
-                    </li>
+
+                            ))
+                    }
+                                     
                 </ul>
             </div>
             

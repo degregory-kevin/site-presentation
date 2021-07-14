@@ -3,7 +3,7 @@ const dataFormation = [
         id:1,
         title:"Formation Développeur Web",
         date:"01/2021 - 07/2021",
-        location:"O'clock",
+        location:"Ecole O'clock",
     },
     
     {
