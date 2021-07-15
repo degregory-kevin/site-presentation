@@ -1,64 +1,70 @@
-import CodeIcon from '@material-ui/icons/Code';
+
 
 export const portfolioData =[
     {
         id:1,
         name: 'Space X',
         languages: ['javascript', 'scss'],
-        languagesIcons:[<CodeIcon/>],
+        languagesIcons:['fab fa-js', 'fab fa-sass'],
         source:'https://github.com/degregory-kevin/spacex',
+        lien:'https://degregory-kevin.github.io/spacex/',
         info:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque nemo sit reprehenderit dicta officia vel culpa aut repellat? Exercitationem ea minus assumenda pariatur mollitia impedit atque doloribus, itaque nihil totam quod error veniam necessitatibus perferendis aspernatur ducimus eveniet labore, dolores obcaecati repellendus fugit sed est neque facere. Praesentium, accusantium consequuntur?',
-        picture:'./media/avatag.jpg'
+        picture:'./media/main.jpg'
 
     },
     {
         id:2,
         name: 'Déconfinement',
         languages: ['javascript', 'css'],
-        languagesIcons:[<CodeIcon/>],
+        languagesIcons:['fab fa-js','fab fa-css3-alt'],
         source:'https://github.com/degregory-kevin/deconfinement',
+        lien:'https://degregory-kevin.github.io/deconfinement/',
         info:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque nemo sit reprehenderit dicta officia vel culpa aut repellat? Exercitationem ea minus assumenda pariatur mollitia impedit atque doloribus, itaque nihil totam quod error veniam necessitatibus perferendis aspernatur ducimus eveniet labore, dolores obcaecati repellendus fugit sed est neque facere. Praesentium, accusantium consequuntur?',
-        picture:'./media/avatag.jpg'
+        picture:'./media/deconfinement.png'
 
     },
     {
         id:3,
         name: 'Hello World',
         languages: ['javascript', 'scss' , 'react'],
-        languagesIcons:[<CodeIcon/>],
+        languagesIcons:['fab fa-js','fab fa-react', 'fab fa-sass'],
         source:'https://github.com/degregory-kevin/countries',
+        lien:'https://countries-kd.netlify.app/',
         info:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque nemo sit reprehenderit dicta officia vel culpa aut repellat? Exercitationem ea minus assumenda pariatur mollitia impedit atque doloribus, itaque nihil totam quod error veniam necessitatibus perferendis aspernatur ducimus eveniet labore, dolores obcaecati repellendus fugit sed est neque facere. Praesentium, accusantium consequuntur?',
-        picture:'./media/avatag.jpg'
+        picture:'./media/countries.jpg'
 
     },
     {
         id:4,
         name: 'react CV-simple',
         languages: ['javascript', 'css' ,'scss', 'react'],
-        languagesIcons:[<CodeIcon/>],
+        languagesIcons:['fab fa-js','fab fa-react', 'fab fa-sass','fab fa-css3-alt'],
         source:'',
+        lien:'https://kevin-degregory-cv.netlify.app/',
         info:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque nemo sit reprehenderit dicta officia vel culpa aut repellat? Exercitationem ea minus assumenda pariatur mollitia impedit atque doloribus, itaque nihil totam quod error veniam necessitatibus perferendis aspernatur ducimus eveniet labore, dolores obcaecati repellendus fugit sed est neque facere. Praesentium, accusantium consequuntur?',
-        picture:'./media/avatag.jpg'
+        picture:'./media/cv.png'
 
     },
     {
         id:5,
-        name: `Porjet Fin de Formation O'clock`,
+        name: `Fin de Formation O'clock`,
         languages: ['javascript', 'css' ,'scss', 'react'],
-        languagesIcons:[<CodeIcon/>],
+        languagesIcons:['fab fa-js','fab fa-react', 'fab fa-sass','fab fa-css3-alt'],
         source:'',
+        lien:'https://youtu.be/8mXTo0QdNGw?t=4234',
         info:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque nemo sit reprehenderit dicta officia vel culpa aut repellat? Exercitationem ea minus assumenda pariatur mollitia impedit atque doloribus, itaque nihil totam quod error veniam necessitatibus perferendis aspernatur ducimus eveniet labore, dolores obcaecati repellendus fugit sed est neque facere. Praesentium, accusantium consequuntur?',
-        picture:'./media/avatag.jpg'
+        picture:'./media/projet-poker.png'
 
     },
     {
-        id:5,
+        id:6,
         name: 'Netflix clone',
         languages: ['javascript', 'css' ,'scss', 'react'],
-        languagesIcons:[<CodeIcon/>],
+        languagesIcons:['fab fa-js','fab fa-react', 'fab fa-sass','fab fa-css3-alt'],
         source:'',
+        lien:'https://clone-netflix-kd.netlify.app/',
         info:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque nemo sit reprehenderit dicta officia vel culpa aut repellat? Exercitationem ea minus assumenda pariatur mollitia impedit atque doloribus, itaque nihil totam quod error veniam necessitatibus perferendis aspernatur ducimus eveniet labore, dolores obcaecati repellendus fugit sed est neque facere. Praesentium, accusantium consequuntur?',
-        picture:'./media/avatag.jpg'
+        picture:'./media/clone-netflix.png'
 
     }
 ]
