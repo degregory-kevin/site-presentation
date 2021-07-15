@@ -21,7 +21,7 @@ const ProjectList = () => {
            
 
     }
-
+    console.log(radio)
     return (
         <div className="portfolioContent">
             <ul className="radioDisplay">
