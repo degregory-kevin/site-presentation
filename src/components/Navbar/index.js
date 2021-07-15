@@ -5,9 +5,7 @@ import HomeIcon from '@material-ui/icons/Home'
 import EqualizerIcon from '@material-ui/icons/Equalizer';
 import PermContactCalendarIcon from '@material-ui/icons/PermContactCalendar';
 import ColorLensIcon from '@material-ui/icons/ColorLens';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import TwitterIcon from '@material-ui/icons/Twitter';
+
 
 
 
@@ -53,25 +51,22 @@ const Navbar = () => {
           <div className="socialNetwork">
             <ul>
               <li>
-                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-                  <i><LinkedInIcon className="test"/></i>
+                <a href="https://www.linkedin.com/in/k%C3%A9vin-degregory-060919203/" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-linkedin"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-                <i><GitHubIcon/></i>  
+                <a href="https://github.com/degregory-kevin" target="_blank" rel="noopener noreferrer">
+                <i i className="fab fa-github"></i>  
+                
                 </a>
               </li>
               <li>
-                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-                 <i> <TwitterIcon/></i>
+                <a href="https://twitter.com/M4st3rKey" target="_blank" rel="noopener noreferrer">
+                 <i className="fab fa-twitter"> </i>
                 </a>
               </li>
-              <li>
-                <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-                 <i><LinkedInIcon/></i> 
-                </a>
-              </li>
+              
             </ul>
             <div className="signature">
             <p>KevDeg - 2021</p>

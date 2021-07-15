@@ -39,7 +39,7 @@ export const portfolioData =[
         name: 'react CV-simple',
         languages: ['javascript', 'css' ,'scss', 'react'],
         languagesIcons:['fab fa-js','fab fa-react', 'fab fa-sass','fab fa-css3-alt'],
-        source:'',
+        source:'https://github.com/degregory-kevin/react-cv',
         lien:'https://kevin-degregory-cv.netlify.app/',
         info:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque nemo sit reprehenderit dicta officia vel culpa aut repellat? Exercitationem ea minus assumenda pariatur mollitia impedit atque doloribus, itaque nihil totam quod error veniam necessitatibus perferendis aspernatur ducimus eveniet labore, dolores obcaecati repellendus fugit sed est neque facere. Praesentium, accusantium consequuntur?',
         picture:'./media/cv.png'
@@ -50,7 +50,7 @@ export const portfolioData =[
         name: `Fin de Formation O'clock`,
         languages: ['javascript', 'css' ,'scss', 'react'],
         languagesIcons:['fab fa-js','fab fa-react', 'fab fa-sass','fab fa-css3-alt'],
-        source:'',
+        source:'source non visible pour le moment',
         lien:'https://youtu.be/8mXTo0QdNGw?t=4234',
         info:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque nemo sit reprehenderit dicta officia vel culpa aut repellat? Exercitationem ea minus assumenda pariatur mollitia impedit atque doloribus, itaque nihil totam quod error veniam necessitatibus perferendis aspernatur ducimus eveniet labore, dolores obcaecati repellendus fugit sed est neque facere. Praesentium, accusantium consequuntur?',
         picture:'./media/projet-poker.png'
@@ -61,10 +61,17 @@ export const portfolioData =[
         name: 'Netflix clone',
         languages: ['javascript', 'css' ,'scss', 'react'],
         languagesIcons:['fab fa-js','fab fa-react', 'fab fa-sass','fab fa-css3-alt'],
-        source:'',
+        source:'https://github.com/degregory-kevin/clone-netflix',
         lien:'https://clone-netflix-kd.netlify.app/',
         info:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque nemo sit reprehenderit dicta officia vel culpa aut repellat? Exercitationem ea minus assumenda pariatur mollitia impedit atque doloribus, itaque nihil totam quod error veniam necessitatibus perferendis aspernatur ducimus eveniet labore, dolores obcaecati repellendus fugit sed est neque facere. Praesentium, accusantium consequuntur?',
         picture:'./media/clone-netflix.png'
 
     }
+]
+
+export const radios = [
+    {id:1, value: "javascript" },
+    {id:2, value: "css" },
+    {id:3, value: "react" },
+    {id:4, value: "scss" },
 ]
