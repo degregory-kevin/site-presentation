@@ -2,7 +2,7 @@
 
 export const portfolioData =[
     {
-        id:1,
+        id:6,
         name: 'Space X',
         languages: ['javascript', 'scss'],
         languagesIcons:['fab fa-js', 'fab fa-sass'],
@@ -13,7 +13,7 @@ export const portfolioData =[
 
     },
     {
-        id:2,
+        id:5,
         name: 'Déconfinement',
         languages: ['javascript', 'css'],
         languagesIcons:['fab fa-js','fab fa-css3-alt'],
@@ -24,7 +24,7 @@ export const portfolioData =[
 
     },
     {
-        id:3,
+        id:1,
         name: 'Hello World',
         languages: ['javascript', 'scss' , 'react'],
         languagesIcons:['fab fa-js','fab fa-react', 'fab fa-sass'],
@@ -47,17 +47,17 @@ export const portfolioData =[
     },
     {
         id:5,
-        name: `Fin de Formation O'clock`,
+        name: "Poker Tool" ,
         languages: ['javascript', 'css' ,'scss', 'react'],
         languagesIcons:['fab fa-js','fab fa-react', 'fab fa-sass','fab fa-css3-alt'],
         source:'source non visible pour le moment',
         lien:'https://youtu.be/8mXTo0QdNGw?t=4234',
-        info:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque nemo sit reprehenderit dicta officia vel culpa aut repellat? Exercitationem ea minus assumenda pariatur mollitia impedit atque doloribus, itaque nihil totam quod error veniam necessitatibus perferendis aspernatur ducimus eveniet labore, dolores obcaecati repellendus fugit sed est neque facere. Praesentium, accusantium consequuntur?',
+        info:`Projet de Fin de Formation O'clock , promo Robin `,
         picture:'./media/projet-poker.png'
 
     },
     {
-        id:6,
+        id:3,
         name: 'Netflix clone',
         languages: ['javascript', 'css' ,'scss', 'react'],
         languagesIcons:['fab fa-js','fab fa-react', 'fab fa-sass','fab fa-css3-alt'],

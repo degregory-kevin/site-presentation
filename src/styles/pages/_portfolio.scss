@@ -136,13 +136,15 @@
         height: 55%;
         box-shadow: 0 2px 6px #333;
         border-radius: 4px;
+
+        
         
         @include verticalCenter;
        
       }
       .infos {
         grid-area: 4;
-        color: $color-4;
+        color: $color-5;
        
         
         display: flex;
@@ -153,9 +155,10 @@
           font-size: 1.5rem;
           @include verticalCenter;
           transition: .2s;
-          color: $color-4;
+          color: $color-5;
           &:hover {
             transform: scale(1.1);
+            color: $color-4;
           }
         }
 
@@ -167,6 +170,7 @@
           transition: .2s;
           &:hover {
             transform: scale(1.1);
+            color: $color-4;
           }
         }
       }
